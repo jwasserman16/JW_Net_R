@@ -347,4 +347,4 @@ points(StefBoltz$DayTimeComb, StefBoltz$TempLD2, type = "l", col="red")
 #try to plot albedo and daily average temperature next to each other
 plot(doyAvgIrTEMP$Doy, doyAvgIrTEMP$AvgTempHD1*.0007, type = "l", ylim = c(0,.4))
 points(doyAvgIrTEMP$Doy, JoinDailyM$Daily_Mean_HD1, type = "l")
-##THINK OF BETTER WAY TO PUT THEM SIDE BY SIDE
+##test comment
